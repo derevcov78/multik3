@@ -166,7 +166,7 @@ body._lock {
 
 @media (max-width: 767px) {
 	.intro__inner {
-width: 100vh;
+height: 100vh;
 		background: #31344e url(../img/2.jpg) center no-repeat;
 	}
 
