@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/remodal-default-theme.css">
+	<link rel="stylesheet" href="css/remodal.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/timer.css">
+
+	<title>Мультозвуки</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a class="menu__link" href="https://kinderay.ru" target="_blank">Киндерай</a>
+				<div class="header__menu menu">
+					<div class="menu__icon">
+						<span></span>
+					</div>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li><a data-goto=".page__section_1" href="#" class="menu__link">Главная</a></li>
+							<li><a data-goto=".page__section_2" href="#" class="menu__link">Вопросы</a></li>
+							<li><a data-goto=".page__section_3" href="#" class="menu__link">Галерея</a></li>
+							<li><a data-goto=".page__section_5" href="#" class="menu__link">Отзывы</a></li>
+							<li><a data-goto=".page__section_6" href="#" class="menu__link">Доставка</a></li>
+							<li><a data-goto=".page__section_7" href="#" class="menu__link">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+
+
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__section page__section_1">
+
+				<div class="intro__inner">
+					<div class="intro-text">
+						<h1 class="intro__title">Мультозвуки</h1>
+						<h2 class="intro__subtitle">мультяшные bluetooth-колонки</h2>
+					</div>
+					<div class="flex-list">
+						<ul class="list">
+							<li> - безопасная и легкая( вес 40 гр)</li>
+							<li> - 4 часа без подзарядки</li>
+							<li> - громкоговоритель и микрофон</li>
+							<li> - селфи-кнопка</li>
+							<li> - выдает мощный и качественный звук</li>
+						</ul>
+					</div>
+					<div class="tel-home">
+						<div class="tel">+79111111111</div>
+
+
+						<!-- кнопка -->
+						<div class="home">
+							<p><a class="mainButton" href="#modal">Заказать обратный звонок</a></p>
+						</div>
+					</div>
+
+					<!--таймер-->
+					<div class="timer1">
+						<p>Успейте заказать до конца акции</p>
+						<div id="controls">
+							<div align=right><a class="close" title="Закрыть"
+									onclick="document.getElementById('controls').style.display='none';"></a></div>
+							<table cellpadding="0" cellspacing="0" id="demo_navi">
+								<tr>
+									<td width="220"><a href="" rel="nofollow">
+											<div class="logo"><b>
+													<font color=#c3e425></font>
+												</b></div>
+										</a></td>
+									<td width="45">
+
+									</td>
+
+								</tr>
+							</table>
+							<div id="app">
+
+								<countdown></countdown>
+							</div>
+						</div>
+					</div>
+
+					<!--таймер-->
+
+
+
+
+
+
+
+
+
+
+					<div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title"
+						aria-describedby="modal1Desc">
+						<div class="remodalBorder">
+							<!--<p><img src="img/sendico.png"></p>-->
+							<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+							<form id="form">
+								<h2 id="modal1Title">Оставьте ваши контактные данные и наша Наташа свяжется <br>с вами
+								</h2>
+								<input type="text" class="putName" name="name" placeholder="Ваше имя" required>
+								<input name="phone" type="tel" class="putPhone" placeholder="Введите номер телефона" required>
+								<input type="submit" name="submit" class="btn" value="ОТПРАВИТЬ">
+								<input type="hidden" name="formData" value="Заявка с сайта">
+								<!--<p style="margin:0;"><a
+										style="font-size:12px; text-align:center; color:rgba(255, 255, 255, 0.686);" </form>-->
+						</div>
+					</div>
+
+					<!--кнопка-->
+				</div>
+
+			</section>
+			<section class="page__section page__section_2">
+				<h2 class="page__sub-title">Часто задаваемые вопросы</h2>
+				<!-- вопрос ответ -->
+				<div class="block1">
+					<div class="block one">
+					</div>
+					<div class="block__item">
+						<h4 class="block__title">Как осуществляется доставка?</h4>
+						<div class="block__text">
+							Доставка по всей России курьером или через пункты самовывоза.
+							Доставка по Москве и СПб на следующий день. Доставка в регионы 2-5 дней.
+						</div>
+					</div>
+					<div class="block__item">
+						<h4 class="block__title">Как происходит оплата заказа?</h4>
+						<div class="block__text">
+							Оплата при получении удобным способом:
+							наличными, безналичный расчет.
+						</div>
+					</div>
+					<div class="block__item">
+						<h4 class="block__title">Какая гарантия действует на колонку?</h4>
+						<div class="block__text">
+							Мы предоставляем 1 год гарантии.
+							Если с Мультозвуком что-то случиться, мы заменим его на новый.
+							Без чеков и лишних вопросов.
+						</div>
+					</div>
+					<div class="block__item">
+						<h4 class="block__title">Про мобильное приложение</h4>
+						<div class="block__text">
+							Мобильное приложение и весь контент(мультики и музыка без рекламы) бесплатно навсегда.
+							Доступно на Apple Store и Google Play
+						</div>
+					</div>
+				</div>
+
+
+
+			</section>
+			<section class="page__section page__section_3">
+				<h2 class="page__sub-title"></h2>
+				<div class="wrapper3">
+					<!-- Контент -->
+
+					<div class="slider">
+						<div class="slider__item">
+							<img src="img/slides/big/01.jpg" alt="">
+						</div>
+						<div class="slider__item">
+							<img src="img/slides/big/02.jpg" alt="">
+						</div>
+						<div class="slider__item">
+							<img src="img/slides/big/03.jpg" alt="">
+						</div>
+						<div class="slider__item">
+							<img src="img/slides/big/04.jpg" alt="">
+						</div>
+						<div class="slider__item">
+							<img src="img/slides/big/05.jpg" alt="">
+						</div>
+						<div class="slider__item">
+							<img src="img/slides/big/06.jpg" alt="">
+						</div>
+						<div class="slider__item">
+							<img src="img/slides/big/07.jpg" alt="">
+						</div>
+						<div class="slider__item">
+							<img src="img/slides/big/08.jpg" alt="">
+						</div>
+						<div class="slider__item">
+							<img src="img/slides/big/09.jpg" alt="">
+						</div>
+						<div class="slider__item">
+							<img src="img/slides/big/10.jpg" alt="">
+						</div>
+						<div class="slider__item">
+							<img src="img/slides/big/11.jpg" alt="">
+						</div>
+						<div class="slider__item">
+							<img src="img/slides/big/12.jpg" alt="">
+						</div>
+						<div class="slider__item">
+							<img src="img/slides/big/13.jpg" alt="">
+						</div>
+						<div class="slider__item">
+							<img src="img/slides/big/14.jpg" alt="">
+						</div>
+						<div class="slider__item">
+							<img src="img/slides/big/15.jpg" alt="">
+						</div>
+					</div>
+
+					<!-- Подключаем jQuery -->
+
+					<!-- Подключаем слайдер Slick -->
+
+					<!-- Подключаем файл скриптов -->
+
+				</div>
+			</section>
+			<section class="page__section page__section_4">
+				<h3 class="title">Полезная игрушка для детей всех возрастов</h3>
+				<hr>
+
+				<ul class="grid">
+					<li>
+						<img src="img/1.webp" alt="Название изображения" />
+						<h4>Надолго занимает внимание детей, развивая творческие способности</h4>
+					</li>
+					<li>
+						<img src="img/2.webp" alt="Название изображения" />
+						<h4>Помогает уложить спать малыша. Читает любимые сказки на ночь</h4>
+					</li>
+					<li>
+						<img src="img/3.webp" alt="Название изображения" />
+						<h4>Веселит ребенка музыкой и внешним видом</h4>
+					</li>
+					<li>
+						<img src="img/4.webp" alt="Название изображения" />
+						<h4>Развлекает дома, в гостях, на прогулке и в поездках</h4>
+					</li>
+					<li>
+						<img src="img/5.webp" alt="Название изображения" />
+						<h4>Может заменить селфи палку</h4>
+					</li>
+					<li>
+						<img src="img/6.webp" alt="Название изображения" />
+						<h4>Включит громкую связь</h4>
+					</li>
+			</section>
+			<section class="page__section page__section_5">
+				<h3 class="title">В мобильном приложении вы найдете</h3>
+				<hr>
+				<h4 class="title">Любимые сказки</h4>
+				<ul class="grid">
+					<li>
+
+						<img src="img/fotoskaz/1.webp" alt="Название изображения" />
+					</li>
+					<li>
+						<img src="img/fotoskaz/2.webp" alt="Название изображения" />
+
+					</li>
+					<li>
+						<img src="img/fotoskaz/3.webp" alt="Название изображения" />
+
+					</li>
+					<li>
+						<img src="img/fotoskaz/4.webp" alt="Название изображения" />
+
+					</li>
+					<li>
+						<img src="img/fotoskaz/5.webp" alt="Название изображения" />
+
+					</li>
+					<li>
+						<img src="img/fotoskaz/6.webp" alt="Название изображения" />
+
+					</li>
+
+					<li>
+						<img src="img/fotoskaz/7.webp" alt="Название изображения" />
+
+					</li>
+					<li>
+						<img src="img/fotoskaz/8.webp" alt="Название изображения" />
+
+					</li>
+				</ul>
+
+
+				<h4 class="title">Песенки из мультфильмов</h4>
+				<ul class="grid">
+					<li>
+
+						<img src="img/mult/1.webp" alt="Название изображения" />
+					</li>
+					<li>
+						<img src="img/mult/2.webp" alt="Название изображения" />
+
+					</li>
+					<li>
+						<img src="img/mult/3.webp" alt="Название изображения" />
+
+					</li>
+					<li>
+						<img src="img/mult/4.webp" alt="Название изображения" />
+
+					</li>
+				</ul>
+
+				<h4 class="title">А также классическую музыку</h4>
+				<ul class="grid">
+					<li>
+
+						<img src="img/muz/1.webp" alt="Название изображения" />
+					</li>
+					<li>
+						<img src="img/muz/2.webp" alt="Название изображения" />
+
+					</li>
+					<li>
+						<img src="img/muz/3.webp" alt="Название изображения" />
+
+					</li>
+
+				</ul>
+
+			</section>
+
+			<section class="page__section page__section_6">
+				<h2 class="page__sub-title">Отзывы покупателей</h2>
+
+				<ul class="flex">
+					<li>
+
+						<img src="img/reviews/1.jpg" alt="Название изображения" />
+					</li>
+					<li>
+						<img src="img/reviews/2.jpg" alt="Название изображения" />
+
+					</li>
+					<li>
+						<img src="img/reviews/3.jpg" alt="Название изображения" />
+
+					</li>
+					<li>
+						<img src="img/reviews/4.jpg" alt="Название изображения" />
+
+					</li>
+					<li>
+						<img src="img/reviews/5.jpg" alt="Название изображения" />
+
+					</li>
+					<li>
+						<img src="img/reviews/6.jpg" alt="Название изображения" />
+
+					</li>
+				</ul>
+
+			</section>
+
+
+			<section class="page__section page__section_7">
+				<h2 class="page__sub-title">Герои мультозвуков</h2>
+
+				<div class="hero">
+					<h3 class="hero-title">Люси</h3>
+
+					<ul class="flex-hero">
+						<li>
+							<img src="img/heroes/2.webp" alt="Название изображения" />
+						</li>
+						<li>
+							<img src="img/heroes/2-1.webp" alt="Название изображения" />
+						</li>
+						<li>
+							<img src="img/heroes/2-2.webp" alt="Название изображения" />
+						</li>
+						<li>
+							<img src="img/heroes/2-3.webp" alt="Название изображения" />
+						</li>
+					</ul>
+				</div>
+
+
+				<div class="hero">
+					<h3 class="hero-title">Луна</h3>
+
+					<ul class="flex-hero">
+						<li>
+							<img src="img/heroes/1.webp" alt="Название изображения" />
+						</li>
+						<li>
+							<img src="img/heroes/1-1.webp" alt="Название изображения" />
+						</li>
+						<li>
+							<img src="img/heroes/1-2.webp" alt="Название изображения" />
+						</li>
+						<li>
+							<img src="img/heroes/1-3.webp" alt="Название изображения" />
+						</li>
+					</ul>
+				</div>
+
+
+
+				<div class="hero">
+					<h3 class="hero-title">Френк</h3>
+
+					<ul class="flex-hero">
+						<li>
+							<img src="img/heroes/3.webp" alt="Название изображения" />
+						</li>
+						<li>
+							<img src="img/heroes/3-1.webp" alt="Название изображения" />
+						</li>
+						<li>
+							<img src="img/heroes/3-2.webp" alt="Название изображения" />
+						</li>
+						<li>
+							<img src="img/heroes/3-3.webp" alt="Название изображения" />
+						</li>
+					</ul>
+				</div>
+
+				<section class="page__section page__section_8">
+					<h2 class="page__sub-title">Доставка</h2>
+					<ul class="delivery">
+						<li>
+							<img src="img/dost/how_1.png" alt="Название изображения" />
+
+						</li>
+						<li>
+							<img src="img/dost/delvery1.jpg" alt="Название изображения" />
+
+						</li>
+					</ul>
+				</section>
+
+				<section class="page__section page__section_8">
+					<h2 class="page__sub-title">Контакты</h2>
+
+
+				</section>
+		</main>
+	</div>
+
+
+
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.4/vue.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js'></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/remodal.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/timer.js"></script>
+
+</body>
+
+</html>
