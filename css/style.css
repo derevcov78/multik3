@@ -478,7 +478,7 @@ height: 100vh;
 	margin-bottom: 25px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 767px) {
 	.page__section_4 {
 		height: 100%;
 		width: 100%;
@@ -490,7 +490,7 @@ height: 100vh;
 
 	.page__section_4 .grid li {
 		flex-basis: 50%;
-		margin-bottom: 65px;
+		margin-bottom: 10px;
 	}
 
 	.page__section_4 .grid li:last-child {
